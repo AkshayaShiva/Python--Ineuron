@@ -1,23 +1,48 @@
 # Assignment Part-1
 Q1. Why do we call Python as a general purpose and high-level programming language?
 
+Python is a general-purpose language, as it can be used to create a variety of different programs and isn't specialized for any specific problems.Python is a high-level programming language as it is known for its ease of readability.
+
 Q2. Why is Python called a dynamically typed language?
+Python is s dynamically typed languages, since type checking takes place at runtime or execution time. This means that variables are checked against types only when the program is executed.
 
 Q3. List some pros and cons of Python programming language?
+Pros	                                    Cons
+Beginner-friendly	                        Issues with design
+Large Community	                            Slower than compiled languages
+Flexible and Extensible	                    Security
+Extensive Libraries	                        Work Environment
+Embeddable	                                High memory consumption
+Highly Scalable	                            Dynamically-typed language
+IoT Opportunities	                        Complex multithreading
+Portable	                                Garbage collection leads to potential memory losses
+
 
 Q4. In what all domains can we use Python?
+Python allows the user to work on multiple domains ranging from Data Science, Machine Learning, Deep Learning, Artificial Intelligence, Scientific Computing Scripting, Networking, Game Development to Web Development.
 
 Q5. What are variable and how can we declare them?
+A Python variable is a symbolic name that is a reference or pointer to an object. Once an object is assigned to a variable, you can refer to the object by that name. But the data itself is still contained within the object. 
+A variable is created the moment you first assign a value to it.
 
 Q6. How can we take an input from the user in Python?
+This input() function helps in getting inputs from users.
 
 Q7. What is the default datatype of the value that has been taken as an input using input() function?
+By default,Python returns the user input in form of a string
 
 Q8. What is type casting?
+The conversion of one data type into the other data type is known as type casting in python or type conversion in python. 
 
 Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
 
+Yes.Using split() method : 
+This function helps in getting multiple inputs from users. It breaks the given input by the specified separator. If a separator is not provided then any white space is a separator. Generally, users use a split() method to split a Python string but one can use it in taking multiple inputs.
+
+input().split(separator, maxsplit)
+
 Q10. What are keywords?
+Keywords are special reserved words that have specific meanings and purposes and can't be used for anything except for those specific purposes. These keywords are always available and we need not import them into your code to use them.
 
 Q11. Can we use keywords as a variable? Support your answer with reason.
 
