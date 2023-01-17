@@ -45,33 +45,60 @@ Q10. What are keywords?
 Keywords are special reserved words that have specific meanings and purposes and can't be used for anything except for those specific purposes. These keywords are always available and we need not import them into your code to use them.
 
 Q11. Can we use keywords as a variable? Support your answer with reason.
+We cannot use a keyword as a variable name, function name or any other identifier. Keywords are reserved words that have a special meaning and can't be used for anything except for those specific purposes.
 
 Q12. What is indentation? What's the use of indentaion in Python?
+Indentation refers to the spaces at the beginning of a code line.The indentation in Python is very important. Python uses indentation to indicate a block of code.
 
 Q13. How can we throw some output in Python?
+The basic way to throw output in Python is through the print statement.Print() function help us to display the outputin the screen.
 
 Q14. What are operators in Python?
+Operators perform operations on variables and values in Python.
+Following are some of the operators  in Python
+Arithmetic operators
+Assignment operators
+Comparison operators
+Logical operators
+Identity operators
+Membership operators
+Bitwise operators
 
 Q15. What is difference between / and // operators?
+/ can be used to perform Float Divison in Python.i.e Delivers the result in decimal values.
+// can be used to perform Integer Division in Python.i.e Delivers the result in Integer values.
 
 Q16. Write a code that gives following as an output.
 ```
 iNeuroniNeuroniNeuroniNeuron
+
+Output:
+for x in range(5):    
+    print("ineuron",end ="")
 ```
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
 
+Code:
+num = int(input('Enter the number: '))
+if (num%2 ==0):
+    print (f'Number {num} is even')
+else:
+    print (f'Number {num} is odd')
+
 Q18. What are boolean operator?
+
+The logical operators and, or and not are also referred to as boolean operators. While and as well as or operator needs two operands, which may evaluate to true or false, not operator needs one operand evaluating to true or false.
 
 Q19. What will the output of the following?
 ```
-1 or 0
+1 or 0 => 1
 
-0 and 0
+0 and 0 => 0
 
-True and False and True
+True and False and True =>False
 
-1 or 0 or 0
+1 or 0 or 0 => 1
 ```
 
 Q20. What are conditional statements in Python?
