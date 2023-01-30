@@ -102,8 +102,12 @@ True and False and True =>False
 ```
 
 Q20. What are conditional statements in Python?
+Conditional Statement in Python perform different computations or actions depending on whether a specific Boolean constraint evaluates to true or false. Conditional statements are handled by IF ELSE statements in Python.
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?
+Python if Statement is used for decision-making operations. It contains a body of code which runs only when the condition given in the if statement is true. 
+If the condition is false, then the optional else statement runs which contains some code for the else condition.
+In Python, elif is short for "else if" and is used when the first if statement isn't true, but you want to check for another condition. 
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
 
